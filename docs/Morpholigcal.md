@@ -4,63 +4,63 @@
 
 Modifies the shape and size of objects in an image by highlighting the dark regions that are smaller than the structuring element and seen as a filter that enhances the contrast of an image.
 
-##
+## BlackHat(BORDER DEFAULT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/BlackHat/blackhat%20after(border_default).png>)
+![logo]()
 
-##
+## BlackHat(BORDER REFLECT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/BlackHat/blackhat%20after(border_reflect).png>)
+![logo]()
 
-##
+## BlackHat(BORDER REFLECT101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/BlackHat/blackhat%20after(border_reflect101).png>)
+![logo]()
 
-##
+## BlackHat(BORDER CONSTANT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/BlackHat/blackhat(border_constant).png>)
+![logo]()
+ 
+## BlackHat(BORDER ISOLATED)
 
-##
+![logo]()
 
-![logo](<_media/AdvanceFunction/Morpholigcal/BlackHat/blackhat(border_isolated).png>)
+## BlackHat(BORDER REFLECT 101)
 
-##
+![logo]()
 
-![logo](<_media/AdvanceFunction/Morpholigcal/BlackHat/blackhat(border_reflect_101).png>)
+## BlackHat(BORDER REPLICATE)
 
-##
-
-![logo](<_media/AdvanceFunction/Morpholigcal/BlackHat/blackhat(border_replicate).png>)
+![logo]()
 
 **Closing**
 
 used to smooth the contours of objects, eliminate small holes, and connect disjointed parts and useful for noise removal, edge detection, and object recognition
 
-##
+## Closing (BORDER CONSTANT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Closing/closing%20(border_constant).png>)
+![logo]()
 
-##
+## Closing(BORDER REFLECT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Closing/closing%20after%20(border_reflect).png>)
+![logo]()
 
-##
+## Closing(BORDER REFLECT101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Closing/closing%20after%20(border_reflect101).png>)
+![logo]()
 
-##
+## Closing(BORDER DEFAULT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Closing/closing(border_default).png>)
+![logo]()
 
-##
+## Closing(BORDER REFLECT 101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Closing/closing(border_reflect_101).png>)
+![logo]()
 
-##
+## Closing(BORDER REPLICATE)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Closing/closing(border_replicate).png>)
+![logo]()
 
-##
+## Closing()
 
 ![logo]()
 
@@ -68,157 +68,157 @@ used to smooth the contours of objects, eliminate small holes, and connect disjo
 
 To apply a morphological operation to an image that enlarges the size of the foreground object and sliding a structuring element, such as a circle or a square, over the image and replacing each pixel with the maximum value of its neighbors that are covered by the structuring element
 
-##
+## Dilation(BORDER REFLECT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Dilation/dilaton%20(border_reflect_101).png>)
+![logo]()
 
-##
+## Dilation(BORDER CONSTANT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Dilation/dilaton(border_constant).png>)
+![logo]()
 
-##
+## Dilation(BORDER DEFAULT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Dilation/dilaton(border_default).png>)
+![logo]()
 
-##
+## Dilation(BORDER ISOLATED)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Dilation/dilaton(border_isolated).png>)
+![logo]()
 
-##
+## Dilation(BORDER REFLECT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Dilation/dilaton(border_reflect).png>)
+![logo]()
 
-##
+## Dilation(BORDER REFLECT 101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Dilation/dilaton(border_reflect101).png>)
+![logo]()
 
-##
+## Dilation(BORDER REPLICATE)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Dilation/dilaton(border_replicate).png>)
+![logo]()
 
 **Erosion**
 
 Apply a morphological operation to an image that reduces the size of the foreground object and sliding a structuring element, such as a circle or a square, over the image and replacing each pixel with the minimum value of its neighbors that are covered by the structuring element
 
-##
+## Erosion(BORDER ISOLATED)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Erosion/erosian%20(border_isolated).png>)
+![logo]()
 
-##
+## Erosion(BORDER CONSTANT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Erosion/erosian(border_constant).png>)
+![logo]()
 
-##
+## Erosion(BORDER DEFAULT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Erosion/erosian(border_default).png>)
+![logo]()
 
-##
+## Erosion(BORDER REFLECT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Erosion/erosian(border_reflect).png>)
+![logo]()
 
-##
+## Erosion(BORDER REFLECT101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Erosion/erosian(border_reflect101).png>)
+![logo]()
 
-##
+## Erosion(BORDER REFLECT 101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Erosion/erosian(border_reflect_101).png>)
+![logo]()
 
-##
+## Erosion(BORDER REPLICATE)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Erosion/erosian(border_replicate).png>)
+![logo]()
 
 **MorphologicalGradient**
 
 type of morphological operation that modifies the shape and size of objects in an image by subtracting the eroded image from the dilated image and to find the outline of an object
 
-##
+## MorphologicalGradient(BORDER CONSTANT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/MorphologicalGradient/Gradient%20(border_constant).png>)
+![logo]()
 
-##
+## MorphologicalGradient(BORDER DEFAULT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/MorphologicalGradient/Gradient%20(border_default).png>)
+![logo]()
 
-##
+## MorphologicalGradient(BORDER ISOLATED)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/MorphologicalGradient/Gradient%20(border_isolated.png)>)
+![logo]()
 
-##
+## MorphologicalGradient(BORDER REFLECT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/MorphologicalGradient/Gradient%20(border_reflect).png>)
+![logo]()
 
-##
+## MorphologicalGradient(BORDER REFLECT 101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/MorphologicalGradient/Gradient%20(border_reflect_101).png>)
+![logo]()
 
-##
+## MorphologicalGradient(BORDER REFLECT101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/MorphologicalGradient/Gradient(border_reflect101).png>)
+![logo]()
 
-##
+## MorphologicalGradient(BORDER REPLICATE)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/MorphologicalGradient/Gradient(border_replicate).png>)
+![logo]()
 
 **Opening**
 useful for noise removal, background subtraction, and used to smooth the contours of objects, fill small holes, and eliminate small protrusions
 
-##
+## Opening(BORDER CONSTANT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Opening/opening(border_constant).png>)
+![logo]()
 
-##
+## Opening(BORDER DEFAULT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Opening/opening(border_default).png>)
+![logo]()
 
-##
+## Opening(BORDER ISOLATED)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Opening/opening(border_isolated).png>)
+![logo]()
 
-##
+## Opening(BORDER REFLECT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Opening/opening(border_reflect).png>)
+![logo]()
 
-##
+## Opening(BORDER REFLECT101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Opening/opening(border_reflect101).png>)
+![logo]()
 
-##
+## Opening(BORDER REFLECT 101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Opening/opening(border_reflect_101).png>)
+![logo]()
 
-##
+## Opening(BORDER REPLICATE)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/Opening/opening(border_replicate).png>)
+![logo]()
 
 **TopHat**
 
 modifies the shape and size of objects in an image by highlighting the bright regions that are smaller than the structuring element and seen as a filter that enhances the contrast of an image.
 
-##
+## TopHat(BORDER DEFAULT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/TopHat/tophat%20%20(border_default).png>)
+![logo]()
 
-##
+## TopHat(BORDER ISOLATED)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/TopHat/tophat%20%20(border_isolated).png>)
+![logo]()
 
-##
+## TopHat(BORDER CONSTANT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/TopHat/tophat%20(border_constant).png>)
+![logo]()
 
-##
+## TopHat(BORDER REFLECT)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/TopHat/tophat%20(border_reflect).png>)
+![logo]()
 
-##
+## TopHat(BORDER REPLICATE)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/TopHat/tophat%20(border_replicate).png>)
+![logo]()
 
-##
+## TopHat(BORDER REFLECT101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/TopHat/tophat%20after%20(border_reflect101).png>)
+![logo]()
 
-##
+## TopHat(BORDER REFLECT 101)
 
-![logo](<_media/AdvanceFunction/Morpholigcal/TopHat/tophat(border_reflect_101).png>)
+![logo]()
