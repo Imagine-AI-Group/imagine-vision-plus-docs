@@ -1,7 +1,7 @@
-![logo](_media/logo/standard-vision-logo.png ":size=240")
+![logo](_media/logo/Asset%2011.png ":size=240")
 
-# Standard Vision <small>0.1.1</small>
+# Imagine Vision + <small>0.1.1</small>
 
-> The Offical Standard Vision Documentation
+> The Offical Imagine Vision + Documentation
 
 [Getting Started](#Table-Of-Content)

@@ -2,53 +2,65 @@
 
 ## Hough Circle
 
+
 to detect circles in an image, even if they are partially occluded or distorted by noise or perspective and transforming the image space into a parameter space, where each point represents a possible circle in the original image
 
-![logo]()
+![logo](_media/AdvanceFunction/HoughCircle/hough%20circle%20transform.png)
 
-## Hough Circle (blur)
+### Hough Circle (blur)
 
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(apply%20blur).png>)
 
+### Hough Circle (adapative gaussian)
 
-![logo]()
-
-## Hough Circle (adapative gaussian)
-
-
-![logo]()
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(adaptive%20gaussian).png>)
 
 ## Hough Circle (adapative mean)
 
-![logo]()
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(adaptive%20mean).png>)
 
 ## Hough Circle (binary)
 
-![logo]()
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(binary).png>)
 
-## Hough Circle (binary_Inv)
+### Hough Circle (binary_Inv)
 
-![logo]()
+Similar to binary thresholding but inverted.
+Pixels brighter than the threshold become black, and pixels darker than the threshold become white.
 
-## Hough Circle (otsu)
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(binary_inv).png>)
 
+### Hough Circle (otsu)
 
-![logo]()
+Automatically finds the best threshold value based on image statistics.
+Separates objects from the background by minimizing pixel intensity variations.
 
-## Hough Circle (tozero)
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(otsu).png>)
 
+### Hough Circle (tozero)
 
-![logo]()
+Pixels brighter than the threshold remain unchanged.
+Pixels darker than the threshold become completely black (0).
 
-## Hough Circle (tozero_Inv)
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(tozero).png>)
 
-![logo]()
+### Hough Circle (tozero_Inv)
 
-## Hough Circle (triangle)
+Pixels brighter than the threshold become completely white (maxval).
+Pixels darker than the threshold remain unchanged.
 
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(tozero_Inv).png>)
 
-![logo]()
+### Hough Circle (triangle)
 
-## Hough Circle (trunc)
+Automatically finds the best threshold value based on the image histogram.
+Aims to maximize the separation between objects and the background.
 
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(triangle).png>)
 
-![logo]()
+### Hough Circle (trunc)
+
+Pixels brighter than the threshold remain unchanged.
+Pixels darker than the threshold become equal to the threshold value.
+
+![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(trunc).png>)
