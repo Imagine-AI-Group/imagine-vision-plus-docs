@@ -24,6 +24,8 @@ apply a noise-reducing and edge-preserving blurring effect to an image and repla
 
 ![logo](_media/BasicFunction/Blur/medianblur.png)
 
+## **Sharpen**
+
 ### Sharpen (prewit)
 
 it detects edges using the respective edge detection kernels.

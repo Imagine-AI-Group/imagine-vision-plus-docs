@@ -15,11 +15,11 @@ to detect circles in an image, even if they are partially occluded or distorted 
 
 ![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(adaptive%20gaussian).png>)
 
-## Hough Circle (adapative mean)
+### Hough Circle (adapative mean)
 
 ![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(adaptive%20mean).png>)
 
-## Hough Circle (binary)
+### Hough Circle (binary)
 
 ![logo](<_media/AdvanceFunction/HoughCircle/hough%20circle%20transform(binary).png>)
 

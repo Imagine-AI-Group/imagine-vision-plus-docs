@@ -15,5 +15,7 @@
 
   - [Circle Detection](circledetection.md)
   - [Edge Detection](EdgeDetection.md)
+  - [HoughLine](houghline.md)
   - [Image Segmentation](ImageSegmentation.md)
-  - [Morpholigcal](Morpholigcal.md)
+  - [Morphological](Morphological.md)
+
