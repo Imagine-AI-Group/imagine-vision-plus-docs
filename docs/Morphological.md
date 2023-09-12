@@ -22,7 +22,7 @@ Modifies the shape and size of objects in an image by highlighting the dark regi
  
 ## BlackHat(BORDER ISOLATED)
 
-![logo]()
+![logo](_media/AdvanceFunction/Morphological/Black%20Hat/black%20hat%20(border_isolated).png)
 
 ## BlackHat(BORDER REFLECT 101)
 
@@ -201,7 +201,7 @@ modifies the shape and size of objects in an image by highlighting the bright re
 
 ## TopHat(BORDER ISOLATED)
 
-![logo]()
+![logo](_media/AdvanceFunction/Morphological/TopHat/top%20hat%20(border_isolated).png)
 
 ## TopHat(BORDER CONSTANT)
 
