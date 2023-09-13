@@ -2,11 +2,11 @@
 
 1. Signing Up
 
-   ![Sign Up]()
+   ![Sign Up](_media/userManual/signup.PNG)
 
-2. Logging In
+2. Sign In
 
-   ![Login]()
+   ![Sign In](_media/userManual/signin.PNG)
 
 3. Side Bar
 
