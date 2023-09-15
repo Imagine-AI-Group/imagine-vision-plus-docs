@@ -48,7 +48,7 @@ Extends the image's border by copying the nearest edge pixels and helps maintain
 
 ## **Closing**
 
-used to smooth the contours of objects, eliminate small holes, and connect disjointed parts and useful for noise removal, edge detection, and object recognition
+Use to smooth the contours of objects, eliminate small holes, and connect disjointed parts and useful for noise removal, edge detection, and object recognition
 
 ### Closing (BORDER CONSTANT)
 
@@ -117,7 +117,7 @@ Also the same as BORDER_REFLECT_101, often used as a default
 
 ### Dilation(BORDER ISOLATED)
 
-operates only within the specified region of interest and it doesn't consider or extend beyond this region
+Operates only within the specified region of interest and it doesn't consider or extend beyond this region
 
 ![logo](<_media/AdvanceFunction/Morphological/Dilation/dilaton(border_isolated).png>)
 
@@ -187,7 +187,7 @@ The border is replicated by copying the nearest pixel value. It creates a border
 
 ## **MorphologicalGradient**
 
-type of morphological operation that modifies the shape and size of objects in an image by subtracting the eroded image from the dilated image and to find the outline of an object
+Type of morphological operation that modifies the shape and size of objects in an image by subtracting the eroded image from the dilated image and to find the outline of an object
 
 ### MorphologicalGradient(BORDER CONSTANT)
 
@@ -233,7 +233,7 @@ This mode extends the image's border by copying the nearest edge pixels and it m
 
 ## **Opening**
 
-useful for noise removal, background subtraction, and used to smooth the contours of objects, fill small holes, and eliminate small protrusions
+Useful for noise removal, background subtraction, and used to smooth the contours of objects, fill small holes, and eliminate small protrusions
 
 ### Opening(BORDER CONSTANT)
 
@@ -279,7 +279,7 @@ Extends the image's border by copying the nearest edge pixels and helps maintain
 
 ## **TopHat**
 
-modifies the shape and size of objects in an image by highlighting the bright regions that are smaller than the structuring element and seen as a filter that enhances the contrast of an image.
+Modifies the shape and size of objects in an image by highlighting the bright regions that are smaller than the structuring element and seen as a filter that enhances the contrast of an image.
 
 ### TopHat(BORDER DEFAULT)
 

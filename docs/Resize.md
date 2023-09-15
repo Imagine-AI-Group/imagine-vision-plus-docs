@@ -1,12 +1,12 @@
 # **Resize**
 
-## factor
+## Factor
 
 Resize an image by a percent scale factor.
 
 ![logo](_media/BasicFunction/Resize/Factor/factor.png)
 
-## resolution
+## Resolution
 
 Resize an image to an exact resolution.
 
