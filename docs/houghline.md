@@ -8,7 +8,7 @@ The edge detection algorithm used before finding lines in an image considers the
 
 ![logo](<_media/AdvanceFunction/HoughLine/hough%20line(false).png>)
 
-## HoughLine probablilistic
+## HoughLine Probablilistic
 
 Focuses on detecting edges based on the intensity differences between neighboring pixels
 
