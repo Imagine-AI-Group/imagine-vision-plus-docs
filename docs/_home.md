@@ -16,5 +16,5 @@
   - [Image Segmentation](ImageSegmentation.md)
   - [Morphological](Morphological.md)
 
-Standard Vision is still under development, any feedback would be appreciated.  
-Have something to say? Send your feedback [here](bruh.com)
+Imagine Vision+ is still under development, any feedback would be appreciated.  
+Have something to say? Send your feedback [here](https://imaginevisionplus.com/feedback)
