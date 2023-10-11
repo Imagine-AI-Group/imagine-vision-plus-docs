@@ -8,43 +8,43 @@ Modifies the shape and size of objects in an image by highlighting the dark regi
 
 Synonymous with BORDER_REFLECT_101 and commonly used as the default for border handling during the black hat transform
 
-![logo](<_media/AdvanceFunction/Morphological/Black%20Hat/black%20hat%20(border_default).png>)
+![logo](<_media/Advanced%20Function/Morphological/black%20hat/black%20hat(border%20default).png>)
 
 ### BlackHat(BORDER REFLECT)
 
 Mirrors border pixels across the image's boundary and preserves symmetry in the black hat transform result.
 
-![logo](<_media/AdvanceFunction/Morphological/Black%20Hat/black%20hat%20(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/black%20hat/black%20hat(border%20reflect).png>)
 
 ### BlackHat(BORDER REFLECT101)
 
 Similar to BORDER_REFLECT, it creates a symmetrical reflection pattern at the image's borders during the black hat transform.
 
-![logo](<_media/AdvanceFunction/Morphological/Black%20Hat/black%20hat%20(border_reflect101).png>)
+![logo](<_media/Advanced%20Function/Morphological/black%20hat/black%20hat(border%20reflect_101).png>)
 
 ### BlackHat(BORDER CONSTANT)
 
 Adds a continuous border with a constant value "i" to the image and border pixels are set to this constant, not affecting the black hat calculation.
 
-![logo](<_media/AdvanceFunction/Morphological/Black%20Hat/black%20hat%20(border_constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/Black%20Hat/black%20hat(border%20constant).png>)
 
 ### BlackHat(BORDER ISOLATED)
 
 Isolates the black hat transform within the specified region of interest (ROI) and prevents influence from and use of information outside the ROI's border.
 
-![logo](<_media/AdvanceFunction/Morphological/Black%20Hat/black%20hat%20(border_isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/Black%20Hat/black%20hat(border%20isolated).png>)
 
 ### BlackHat(BORDER REFLECT 101)
 
 Equivalent to BORDER_REFLECT_101, maintaining a consistent symmetrical reflection pattern during the black hat transform.
 
-![logo](<_media/AdvanceFunction/Morphological/Black%20Hat/black%20hat%20(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/Black%20Hat/black%20hat(border%20reflect_101).png>)
 
 ### BlackHat(BORDER REPLICATE)
 
 Extends the image's border by copying the nearest edge pixels and helps maintain image content near borders during black hat calculation.
 
-![logo](<_media/AdvanceFunction/Morphological/Black%20Hat/black%20hat%20(border_replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/Black%20Hat/black%20hat(border%20replicate).png>)
 
 ## **Closing**
 
@@ -55,43 +55,43 @@ Use to smooth the contours of objects, eliminate small holes, and connect disjoi
 It adds a continuous border with a constant value "i" to the image during opening.
 The border pixels are set to this constant and don't affect the opening process
 
-![logo](<_media/AdvanceFunction/Morphological/Closing/closing(border_constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_constant).png>)
 
 ### Closing(BORDER REFLECT)
 
 Border pixels are mirrored across the image's boundary during opening and this maintains symmetry at the image's edges.
 
-![logo](<_media/AdvanceFunction/Morphological/Closing/closing(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_reflect).png>)
 
 ### Closing(BORDER REFLECT101)
 
 Essentially the same as BORDER_REFLECT_101, maintaining a consistent symmetrical reflection pattern during opening.
 
-![logo](<_media/AdvanceFunction/Morphological/Closing/closing(border_reflect101).png>)
+![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_reflect101).png>)
 
 ### Closing(BORDER DEFAULT)
 
 It's also equivalent to BORDER_REFLECT_101 and is commonly used as the default behavior for border handling during opening.
 
-![logo](<_media/AdvanceFunction/Morphological/Closing/closing(border_default).png>)
+![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_default).png>)
 
 ### Closing(BORDER REFLECT 101)
 
 Similar to BORDER_REFLECT, it creates a symmetrical reflection pattern at the image's borders during opening and it has unique border pixel values
 
-![logo](<_media/AdvanceFunction/Morphological/Closing/closing(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_reflect_101).png>)
 
 ### Closing(BORDER REPLICATE)
 
 This mode extends the image's border by copying the nearest edge pixels and it ensures that the edge values are extended into the border region during opening.
 
-![logo](<_media/AdvanceFunction/Morphological/Closing/closing(border_replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_replicate).png>)
 
 ### Closing(BORDER ISOLATED)
 
 In this mode, opening only operates within the specified region of interest (ROI) and ignores or isolates the image's border, ensuring it doesn't influence the opening process outside the ROI
 
-![logo](<_media/AdvanceFunction/Morphological/Closing/closing(border_isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_isolated).png>)
 
 ## **Dilation**
 
@@ -101,43 +101,43 @@ To apply a morphological operation to an image that enlarges the size of the for
 
 Border pixels are mirrored across the image boundary and this creates a symmetrical reflection pattern at the image's edges.
 
-![logo](<_media/AdvanceFunction/Morphological/Dilation/dilaton(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/Dilation/dilaton(border_reflect).png>)
 
 ### Dilation(BORDER CONSTANT)
 
 It pads the image's border with a constant value, "i," during dilation and border pixels are set to this constant, ensuring they don't affect dilation
 
-![logo](<_media/AdvanceFunction/Morphological/Dilation/dilaton(border_constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/Dilation/dilaton(border_constant).png>)
 
 ### Dilation(BORDER DEFAULT)
 
 Also the same as BORDER_REFLECT_101, often used as a default
 
-![logo](<_media/AdvanceFunction/Morphological/Dilation/dilaton(border_default).png>)
+![logo](<_media/Advanced%20Function/Morphological/Dilation/dilaton(border_default).png>)
 
 ### Dilation(BORDER ISOLATED)
 
 Operates only within the specified region of interest and it doesn't consider or extend beyond this region
 
-![logo](<_media/AdvanceFunction/Morphological/Dilation/dilaton(border_isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/Dilation/dilaton(border_isolated).png>)
 
 ### Dilation(BORDER REFLECT)
 
 Border pixels are mirrored across the image boundary and this creates a symmetrical reflection pattern at the image's edges
 
-![logo](<_media/AdvanceFunction/Morphological/Dilation/dilaton(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/Dilation/dilaton(border_reflect).png>)
 
 ### Dilation(BORDER REFLECT 101)
 
 Similar to BORDER_REFLECT but with a unique reflection pattern and maintains symmetry at the image's borders
 
-![logo](<_media/AdvanceFunction/Morphological/Dilation/dilaton(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/Dilation/dilaton(border_reflect_101).png>)
 
 ### Dilation(BORDER REPLICATE)
 
 It extends the image's border by copying the nearest edge pixels and the border replicates the values from the closest edge pixels
 
-![logo](<_media/AdvanceFunction/Morphological/Dilation/dilaton(border_replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/Dilation/dilaton(border_replicate).png>)
 
 ## **Erosion**
 
@@ -147,43 +147,43 @@ Apply a morphological operation to an image that reduces the size of the foregro
 
 This option indicates that you should not consider pixels outside the Region of Interest (ROI) when performing the erosion operation. It helps maintain the integrity of the ROI without affecting the surrounding area
 
-![logo](<_media/AdvanceFunction/Morphological/Erosion/erosian(border_isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/Erosion/erosian(border_isolated).png>)
 
 ### Erosion(BORDER CONSTANT)
 
 The border is filled with a constant value specified by 'i'. The image remains unchanged outside the specified region
 
-![logo](<_media/AdvanceFunction/Morphological/Erosion/erosian(border_constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/Erosion/erosian(border_constant).png>)
 
 ### Erosion(BORDER DEFAULT)
 
 This is the same as BORDER_REFLECT_101, serving as a default option for border handling
 
-![logo](<_media/AdvanceFunction/Morphological/Erosion/erosian(border_default).png>)
+![logo](<_media/Advanced%20Function/Morphological/Erosion/erosian(border_default).png>)
 
 ### Erosion(BORDER REFLECT)
 
 The border pixels are mirrored. It reflects the image as if it were flipped horizontally, creating a border that mirrors the content from the center outwards
 
-![logo](<_media/AdvanceFunction/Morphological/Erosion/erosian(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/Erosion/erosian(border_reflect).png>)
 
 ### Erosion(BORDER REFLECT101)
 
 This is the same as BORDER_REFLECT_101, so it reflects the border content in a similar way
 
-![logo](<_media/AdvanceFunction/Morphological/Erosion/erosian(border_reflect101).png>)
+![logo](<_media/Advanced%20Function/Morphological/Erosion/erosian(border_reflect101).png>)
 
 ### Erosion(BORDER REFLECT 101)
 
 Similar to BORDER_REFLECT but with slight differences in how the border is calculated. It also mirrors the border content
 
-![logo](<_media/AdvanceFunction/Morphological/Erosion/erosian(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/Erosion/erosian(border_reflect_101).png>)
 
 ### Erosion(BORDER REPLICATE)
 
 The border is replicated by copying the nearest pixel value. It creates a border that appears as if the outer pixels are mirrored, creating a constant border of 'a' on the left and 'h' on the right
 
-![logo](<_media/AdvanceFunction/Morphological/Erosion/erosian(border_replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/Erosion/erosian(border_replicate).png>)
 
 ## **MorphologicalGradient**
 
@@ -193,43 +193,43 @@ Type of morphological operation that modifies the shape and size of objects in a
 
 It adds a continuous border with a constant value "i" to the image during the gradient calculation and Border pixels are set to this constant and don't affect the gradient
 
-![logo](<_media/AdvanceFunction/Morphological/MorphologicalGradient/gradient(border%20constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/MorphologicalGradient/gradient(border%20constant).png>)
 
 ### MorphologicalGradient(BORDER DEFAULT)
 
 It's also equivalent to BORDER_REFLECT_101 and serves as a commonly used default for border handling during the morphological gradient operation
 
-![logo](<_media/AdvanceFunction/Morphological/MorphologicalGradient/gradient(border_default).png>)
+![logo](<_media/Advanced%20Function/Morphological/MorphologicalGradient/gradient(border_default).png>)
 
 ### MorphologicalGradient(BORDER ISOLATED)
 
 In this mode, the gradient calculation is isolated to the specified region of interest (ROI)and it disregards information from the image's border, ensuring it doesn't affect the gradient outside the ROI
 
-![logo](<_media/AdvanceFunction/Morphological/MorphologicalGradient/gradient(border_isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/MorphologicalGradient/gradient(border_isolated).png>)
 
 ### MorphologicalGradient(BORDER REFLECT)
 
 Border pixels are mirrored across the image's boundary during gradient calculation.
 This preserves symmetry in the gradient result
 
-![logo](<_media/AdvanceFunction/Morphological/MorphologicalGradient/gradient(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/MorphologicalGradient/gradient(border_reflect).png>)
 
 ### MorphologicalGradient(BORDER REFLECT 101)
 
 Similar to BORDER_REFLECT, it creates a symmetrical reflection pattern at the image's borders during the gradient operation and it has unique border pixel values
 
-![logo](<_media/AdvanceFunction/Morphological/MorphologicalGradient/gradient(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/MorphologicalGradient/gradient(border_reflect_101).png>)
 
 ### MorphologicalGradient(BORDER REFLECT101)
 
 Essentially the same as BORDER_REFLECT_101, maintaining a consistent symmetrical reflection pattern during the gradient
 
-![logo](<_media/AdvanceFunction/Morphological/MorphologicalGradient/gradient(border_reflect101).png>)
+![logo](<_media/Advanced%20Function/Morphological/MorphologicalGradient/gradient(border_reflect101).png>)
 
 ### MorphologicalGradient(BORDER REPLICATE)
 
 This mode extends the image's border by copying the nearest edge pixels and it maintains the image's content near the borders while calculating the gradient
-![logo](<_media/AdvanceFunction/Morphological/MorphologicalGradient/gradient(border_replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/MorphologicalGradient/gradient(border_replicate).png>)
 
 ## **Opening**
 
@@ -239,43 +239,43 @@ Useful for noise removal, background subtraction, and used to smooth the contour
 
 Adds a continuous border with a constant value "i" to the image and border pixels are set to this constant, not affecting the opening process
 
-![logo](<_media/AdvanceFunction/Morphological/Opening/opening(border_constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/Opening/opening(border_constant).png>)
 
 ### Opening(BORDER DEFAULT)
 
 Synonymous with BORDER_REFLECT_101 and commonly used as the default for border handling during opening
 
-![logo](<_media/AdvanceFunction/Morphological/Opening/opening(border_default).png>)
+![logo](<_media/Advanced%20Function/Morphological/Opening/opening(border_default).png>)
 
 ### Opening(BORDER ISOLATED)
 
 Isolates the opening operation within the specified region of interest (ROI) and prevents influence from and use of information outside the ROI's border
 
-![logo](<_media/AdvanceFunction/Morphological/Opening/opening(border_isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/Opening/opening(border_isolated).png>)
 
 ### Opening(BORDER REFLECT)
 
 Mirrors border pixels across the image's boundary and preserves symmetry in the opening result.
 
-![logo](<_media/AdvanceFunction/Morphological/Opening/opening(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/Opening/opening(border_reflect).png>)
 
 ### Opening(BORDER REFLECT101)
 
 Equivalent to BORDER_REFLECT_101, maintaining a consistent symmetrical reflection pattern during opening
 
-![logo](<_media/AdvanceFunction/Morphological/Opening/opening(border_reflect101).png>)
+![logo](<_media/Advanced%20Function/Morphological/Opening/opening(border_reflect101).png>)
 
 ### Opening(BORDER REFLECT 101)
 
 Similar to BORDER_REFLECT, it creates a symmetrical reflection pattern at the image's borders during opening and has unique border pixel values
 
-![logo](<_media/AdvanceFunction/Morphological/Opening/opening(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/Opening/opening(border_reflect_101).png>)
 
 ### Opening(BORDER REPLICATE)
 
 Extends the image's border by copying the nearest edge pixels and helps maintain image content near borders during opening
 
-![logo](<_media/AdvanceFunction/Morphological/Opening/opening(border_replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/Opening/opening(border_replicate).png>)
 
 ## **TopHat**
 
@@ -285,39 +285,39 @@ Modifies the shape and size of objects in an image by highlighting the bright re
 
 Synonymous with BORDER_REFLECT_101 and commonly used as the default for border handling during the top hat operation
 
-![logo](<_media/AdvanceFunction/Morphological/TopHat/top%20hat%20(border_default).png>)
+![logo](<_media/Advanced%20Function/Morphological/TopHat/top%20hat%20(border_default).png>)
 
 ### TopHat(BORDER ISOLATED)
 
 Isolates the gradient calculation within the specified region of interest (ROI) and prevents influence from and use of information outside the ROI's border
-![logo](<_media/AdvanceFunction/Morphological/TopHat/top%20hat%20(border_isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/TopHat/top%20hat%20(border_isolated).png>)
 
 ### TopHat(BORDER CONSTANT)
 
 Adds a continuous border with a constant value "i" to the image and border pixels are set to this constant, not affecting the gradient
 
-![logo](<_media/AdvanceFunction/Morphological/TopHat/top%20hat%20(border_constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/TopHat/top%20hat%20(border_constant).png>)
 
 ### TopHat(BORDER REFLECT)
 
 Mirrors border pixels across the image's boundary and preserves symmetry in the gradient result
 
-![logo](<_media/AdvanceFunction/Morphological/TopHat/top%20hat%20(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/TopHat/top%20hat%20(border_reflect).png>)
 
 ### TopHat(BORDER REPLICATE)
 
 Extends the image's border by copying the nearest edge pixels and helps maintain image content near borders during gradient calculation
 
-![logo](<_media/AdvanceFunction/Morphological/TopHat/top%20hat%20(border_replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/TopHat/top%20hat%20(border_replicate).png>)
 
 ### TopHat(BORDER REFLECT101)
 
 Equivalent to BORDER_REFLECT_101, maintaining a consistent symmetrical reflection pattern during the top hat operation
 
-![logo](<_media/AdvanceFunction/Morphological/TopHat/top%20hat%20(border_reflect101).png>)
+![logo](<_media/Advanced%20Function/Morphological/TopHat/top%20hat%20(border_reflect101).png>)
 
 ### TopHat(BORDER REFLECT 101)
 
 Similar to BORDER_REFLECT, it creates a symmetrical reflection pattern at the image's borders during the top hat operation and has unique border pixel values
 
-![logo](<_media/AdvanceFunction/Morphological/TopHat/top%20hat%20(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/TopHat/top%20hat%20(border_reflect_101).png>)
