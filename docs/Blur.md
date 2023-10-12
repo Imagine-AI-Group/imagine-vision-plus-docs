@@ -30,13 +30,13 @@ Apply a noise-reducing and edge-preserving blurring effect to an image and repla
 
 It detects edges using the respective edge detection kernels.
 
-![logo](<_media/Basic%20Function/Blur/sharpen(prewitt).png>)
+![logo](<_media/Basic%20Function/Blur/sharpen(Prewitt).png>)
 
 ### Sharpen (Scharr)
 
 It detects edges using the respective edge detection kernels.
 
-![logo](<_media/Basic%20Function/Blur/sharpen(scharr).png>)
+![logo](<_media/Basic%20Function/Blur/sharpen(Scharr).png>)
 
 ### Sharpen (Gaussian)
 
