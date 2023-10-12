@@ -8,7 +8,7 @@ To detect circles in an image, even if they are partially occluded or distorted 
 
 ### Hough Circle (Blur)
 
-![logo](<_media/Advanced%20Function/Hough%20Circle/hough%20circle%20transform(apply%20blur).png>)
+![logo](<_media/Advanced%20Function/Hough%20Circle/hough%20circle%20transform(blur).png>)
 
 ### Hough Circle (Adapative Gaussian)
 
@@ -62,4 +62,4 @@ Aims to maximize the separation between objects and the background.
 Pixels brighter than the threshold remain unchanged.
 Pixels darker than the threshold become equal to the threshold value.
 
-![logo](<_media/Advanced%20Function/Hough%20Circle/hough%20circle%20transform(trunc).png>)
+![logo](<_media/Advanced%20Function/Hough%20Circle/hough%20circletransform(trunc).png>)
