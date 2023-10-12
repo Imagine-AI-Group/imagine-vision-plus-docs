@@ -54,7 +54,7 @@ It enhances edges using a Laplacian sharpening kernel.
 
 It detects edges using the respective edge detection kernels.
 
-![logo](<_media/Basic%20Function/Blur/sharpen(sobel).png>)
+![logo](<_media/Basic%20Function/Blur/sharpen(Sobel).png>)
 
 ## Unsharp Mask
 
