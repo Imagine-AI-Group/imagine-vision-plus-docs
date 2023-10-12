@@ -26,25 +26,25 @@ Similar to BORDER_REFLECT, it creates a symmetrical reflection pattern at the im
 
 Adds a continuous border with a constant value "i" to the image and border pixels are set to this constant, not affecting the black hat calculation.
 
-![logo](<_media/Advanced%20Function/Morphological/Black%20Hat/black%20hat(border%20constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/black%20hat/black%20hat(border%20constant).png>)
 
 ### BlackHat(BORDER ISOLATED)
 
 Isolates the black hat transform within the specified region of interest (ROI) and prevents influence from and use of information outside the ROI's border.
 
-![logo](<_media/Advanced%20Function/Morphological/Black%20Hat/black%20hat(border%20isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/black%20hat/black%20hat(border%20isolated).png>)
 
 ### BlackHat(BORDER REFLECT 101)
 
 Equivalent to BORDER_REFLECT_101, maintaining a consistent symmetrical reflection pattern during the black hat transform.
 
-![logo](<_media/Advanced%20Function/Morphological/Black%20Hat/black%20hat(border%20reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/black%20hat/black%20hat(border%20reflect_101).png>)
 
 ### BlackHat(BORDER REPLICATE)
 
 Extends the image's border by copying the nearest edge pixels and helps maintain image content near borders during black hat calculation.
 
-![logo](<_media/Advanced%20Function/Morphological/Black%20Hat/black%20hat(border%20replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/black%20hat/black%20hat(border%20replicate).png>)
 
 ## **Closing**
 
@@ -55,43 +55,43 @@ Use to smooth the contours of objects, eliminate small holes, and connect disjoi
 It adds a continuous border with a constant value "i" to the image during opening.
 The border pixels are set to this constant and don't affect the opening process
 
-![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_constant).png>)
+![logo](<_media/Advanced%20Function/Morphological/closing/closing(border_constant).png>)
 
 ### Closing(BORDER REFLECT)
 
 Border pixels are mirrored across the image's boundary during opening and this maintains symmetry at the image's edges.
 
-![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_reflect).png>)
+![logo](<_media/Advanced%20Function/Morphological/closing/closing(border_reflect).png>)
 
 ### Closing(BORDER REFLECT101)
 
 Essentially the same as BORDER_REFLECT_101, maintaining a consistent symmetrical reflection pattern during opening.
 
-![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_reflect101).png>)
+![logo](<_media/Advanced%20Function/Morphological/closing/closing(border_reflect101).png>)
 
 ### Closing(BORDER DEFAULT)
 
 It's also equivalent to BORDER_REFLECT_101 and is commonly used as the default behavior for border handling during opening.
 
-![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_default).png>)
+![logo](<_media/Advanced%20Function/Morphological/closing/closing(border_default).png>)
 
 ### Closing(BORDER REFLECT 101)
 
 Similar to BORDER_REFLECT, it creates a symmetrical reflection pattern at the image's borders during opening and it has unique border pixel values
 
-![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/closing/closing(border_reflect_101).png>)
 
 ### Closing(BORDER REPLICATE)
 
 This mode extends the image's border by copying the nearest edge pixels and it ensures that the edge values are extended into the border region during opening.
 
-![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_replicate).png>)
+![logo](<_media/Advanced%20Function/Morphological/closing/closing(border_replicate).png>)
 
 ### Closing(BORDER ISOLATED)
 
 In this mode, opening only operates within the specified region of interest (ROI) and ignores or isolates the image's border, ensuring it doesn't influence the opening process outside the ROI
 
-![logo](<_media/Advanced%20Function/Morphological/Closing/closing(border_isolated).png>)
+![logo](<_media/Advanced%20Function/Morphological/closing/closing(border_isolated).png>)
 
 ## **Dilation**
 
@@ -131,7 +131,7 @@ Border pixels are mirrored across the image boundary and this creates a symmetri
 
 Similar to BORDER_REFLECT but with a unique reflection pattern and maintains symmetry at the image's borders
 
-![logo](<Advanced%20Function/Morphological/dilaton/dilaton(border_reflect_101).png>)
+![logo](<_media/Advanced%20Function/Morphological/dilaton/dilaton(border_reflect_101).png>)
 
 ### Dilation(BORDER REPLICATE)
 
