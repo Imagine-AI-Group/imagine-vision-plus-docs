@@ -48,7 +48,7 @@ Pixels darker than the threshold become completely black (0).
 Pixels brighter than the threshold become completely white (maxval).
 Pixels darker than the threshold remain unchanged.
 
-![logo](<_media/Advanced%20Function/Hough%20Circle/hough%20circle%20transform(tozero_Inv).png>)
+![logo](<_media/Advanced%20Function/Hough%20Circle/hough%20circle%20transform(tozero_inv).png>)
 
 ### Hough Circle (Triangle)
 

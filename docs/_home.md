@@ -11,7 +11,7 @@
 - Advance Function
 
   - [Circle Detection](circledetection.md)
-  - [Edge Detection](Edgedetection.md)
+  - [Edge Detection](EdgeDetection.md)
   - [HoughLine](houghline.md)
   - [Image Segmentation](ImageSegmentation.md)
   - [Morphological](Morphological.md)
