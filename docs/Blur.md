@@ -1,12 +1,12 @@
 # **Blur**
 
-## BoxBlur
+## Box Blur
 
 To apply a simple and fast blurring effect to an image and each pixel in the image with the average color of its neighboring pixels within a certain radius
 
 ![logo](_media/Basic%20Function/Blur/boxblur.png)
 
-## BoxFilter
+## Box Filter
 
 To apply a simple and fast smoothing effect to an image and each pixel in the image with the weighted average color of its neighboring pixels within a certain radius
 

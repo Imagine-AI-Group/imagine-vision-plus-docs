@@ -6,9 +6,9 @@ Uses some prior information or user input to guide the segmentation process and 
 
 ![logo](_media/Advanced%20Function/Image%20segmentation/watershed%20page.png)
 
-## Step-by-step how to use watershed
+## Step-by-step how to use Watershed
 
-### step 1 (thresholding)
+### Step 1 (Thresholding)
 
 1. Locate the "Threshold" input field, enter a value between 0 and 255, and press Enter.
 2. Locate the "Maximum value" input field, enter a value between 0 and 255, and press Enter.
@@ -21,7 +21,7 @@ Uses some prior information or user input to guide the segmentation process and 
 
 ![logo](_media/Advanced%20Function/Image%20segmentation/wateshed%20fail.PNG)
 
-### step 2 (noise removal)
+### Step 2 (Noise Removal)
 
 1. Choose an option from the "morphological operation" dropdown.
 2. Enter a numeric value in the "Kernel" input field.
@@ -34,7 +34,7 @@ Uses some prior information or user input to guide the segmentation process and 
 
 ### (Sure Background and Foreground Area)
 
-### step 3(dailation)
+### Step 3(Dilation)
 
 1. Enter a numeric value in the "Anchor X 1" input field (between -1 and 210).
 2. Enter a numeric value in the "Anchor Y 1" input field (between -1 and 210).
@@ -43,14 +43,14 @@ Uses some prior information or user input to guide the segmentation process and 
 
 ![logo](_media/Advanced%20Function/Image%20segmentation/watershed%20dailation.png)
 
-### step 4 (distance Transform)
+### Step 4 (Distance Transform)
 
 1. Select an option from the "Distance Type" dropdown.
 2. Select an option from the "Mask Size" dropdown.
 
 ![logo](_media/Advanced%20Function/Image%20segmentation/watershed%20dist.png)
 
-### step 5
+### Step 5
 
 1. Enter a numeric value in the "Threshold" input field (between 0.00 and 0.99) the maximum value in the dist_transform image. The threshold value determines which pixels areconsidered as foreground (objects) and which are considered as background. Pixels with values greater than or equal to this threshold are considered as foreground.
 
@@ -60,7 +60,7 @@ Uses some prior information or user input to guide the segmentation process and 
 
 ![logo](<_media/Advanced%20Function/Image%20segmentation/watershed%20thresholding(2).png>)
 
-### step 6
+### Step 6
 
 After entering values for the desired parameters in each step, locate the "Process" button.
 Click on the "Process" button to submit the form and execute the Watershed function with the provided input values.

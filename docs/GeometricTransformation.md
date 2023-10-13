@@ -1,4 +1,4 @@
-# **GeometricTransformation**
+# **Geometric Transformation**
 
 ## Rotation & Translation
 

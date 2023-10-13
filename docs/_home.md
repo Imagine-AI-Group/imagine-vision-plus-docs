@@ -16,5 +16,5 @@
   - [Image Segmentation](ImageSegmentation.md)
   - [Morphological](Morphological.md)
 
-Imagine Vision+ is still under development, any feedback would be appreciated.  
+Imagine Vision+ is still in beta version, any feedback would be appreciated.  
 Have something to say? Send your feedback [here](https://imaginevisionplus.com/feedback)

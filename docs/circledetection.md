@@ -1,4 +1,4 @@
-# **CircleDetection**
+# **Circle Detection**
 
 ## Hough Circle
 
