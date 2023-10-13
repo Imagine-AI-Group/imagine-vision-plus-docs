@@ -6,6 +6,9 @@ Process of finding the boundaries of objects or regions in an image, which are o
 
 ![logo](_media/Advanced%20Function/Edge%20detection/Canny/canny.png)
 
+
+## Sobel
+
 ### Sobel(Border_Default)
 
 Uses a default or system-defined border handling method for the x-direction and y-direction of the Sobel algorithm.
