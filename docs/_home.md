@@ -20,7 +20,11 @@
   - [Foreground Extraction](ForegroundExtraction.md)
   - [HoughLine](houghline.md)
   - [Morphological](Morphological.md)
-  - [Matching](.md)
+  - [Matching](TemplateMatching.md)
+
+- Iteration
+
+  - [Image Iterator](Iteration.md)
 
 Imagine Vision+ is still in beta version, any feedback would be appreciated.  
 Have something to say? Send your feedback [here](https://imaginevisionplus.com/feedback)

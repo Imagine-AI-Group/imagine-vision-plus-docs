@@ -23,4 +23,8 @@
   - [Foreground Extraction](ForegroundExtraction.md)
   - [HoughLine](houghline.md)
   - [Morphological](Morphological.md)
-  - [Matching](.md)
+  - [Matching](TemplateMatching.md)
+
+- Iteration
+
+  - [Image Iterator](Iteration.md)

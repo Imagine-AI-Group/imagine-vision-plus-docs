@@ -2,6 +2,6 @@
 
 ## Image Iterator
 
-The process of iteration is used to go through the parts of an object, like an image or matrix. It is often used to do something to each part of the object. When working with images or matrices, OpenCV's iteration functions help make the process faster and better. In many computer vision tasks, like image processing, filtering, transformation, and so on, they are very important.
+to traverse through all the pixels on a line segment in an image. It used for various image processing tasks where you need to access or modify the pixel values along a line in an image. For example, you can use it to grab pixel values along the line or draw a line with an effect.
 
 ![logo](_media/Iteration/ImageIterator.png)
