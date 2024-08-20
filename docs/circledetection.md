@@ -4,13 +4,15 @@
 
 To detect circles in an image, even if they are partially occluded or distorted by noise or perspective and transforming the image space into a parameter space, where each point represents a possible circle in the original image
 
-![logo](_media/Advanced%20Function/Hough%20Circle/hough%20circle%20transform.png)
-
 ### Hough Circle (Blur)
+
+Noise reduction makes an image smoother and less pixelated. For example, image preprocessing and image denoising are common tasks that use it.
 
 ![logo](<_media/Advanced%20Function/Hough%20Circle/hough%20circle%20transform(blur).png>)
 
 ### Hough Circle (Adapative Gaussian)
+
+Enhances the accuracy of object detection, reduces noise, and raises the quality of the image. It can also be used to fix images with uneven lighting.
 
 ![logo](<_media/Advanced%20Function/Hough%20Circle/hough%20circle%20transform(adaptive%20gaussian).png>)
 
