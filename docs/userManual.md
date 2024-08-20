@@ -17,7 +17,7 @@
    Currently, Imagine Vision+ features provides users with a robust toolkit to efficiently navigate through the complexities of developing AI Computer Vision models,
    enabling them to harness the full potential of visual data for various applications (only traditional computer vision algorithm).
 
-   ![main page](_media/userManual/features.jpg)
+   ![main page](_media/userManual/front.png)
 
 4. Side Bar
 
