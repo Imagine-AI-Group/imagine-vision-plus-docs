@@ -3,6 +3,11 @@
   - [User Manual](userManual.md)
   - [List of All Functions](_home.md#table-of-content)
 
+- Deep Learning
+
+  - [Classification](classification.md)
+  - [Object Detection](objectdetection.md)
+
 - Basic Function
 
   - [Blur](Blur.md)

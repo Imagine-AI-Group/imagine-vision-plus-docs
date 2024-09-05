@@ -1,5 +1,10 @@
 # Table Of Content
 
+- Deep Learning
+
+  - [Classification](classification.md)
+  - [Object Detection](objectdetection.md)
+
 - Basic Function
 
   - [Blur](Blur.md)
